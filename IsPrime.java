@@ -1,3 +1,4 @@
+// Program to print n Prime numbers 
 import java.util.Scanner;
 
 class IsPrime
