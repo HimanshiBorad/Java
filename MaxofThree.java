@@ -1,3 +1,4 @@
+// Program to give maximum out of three numbers using conditional opreator
 import java.util.Scanner;
 
 class MaxofThree
