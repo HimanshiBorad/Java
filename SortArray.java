@@ -1,20 +1,23 @@
+// program to sory array elements 
 import java.util.Scanner;
 
 class SortArray
 {
 	public static void main(String[] args)
 	{
-		int i, j, tmp;
-		int []a = new int[10];  
+		int i, j, tmp, size;
+		int []a = new int[20];  
 		Scanner sc = new Scanner(System.in);      
+		System.out.println("Enter the size of array:");
+		size = sc.nextInt();
 		System.out.println("Enter the elements in array:");
-		for(i = 0; i < 5; i++)
+		for(i = 0; i < size+)
 		{
 			a[i] = sc.nextInt();
 		}	
-		for(i = 0; i < 5; i++)
+		for(i = 0; i < size; i++)
 		{
-			for(j = i; j < 5; j++)
+			for(j = i; j < size; j++)
 			{
 				if (a[i] > a[j])
 				{
@@ -25,7 +28,7 @@ class SortArray
 			}
 		}
 		System.out.println("The sorted array:");
-		for(i = 0; i < 5; i++)
+		for(i = 0; i < size; i++)
 		{
 			System.out.println(a[i]);
 		}	
