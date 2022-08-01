@@ -11,7 +11,7 @@ class SortArray
 		System.out.println("Enter the size of array:");
 		size = sc.nextInt();
 		System.out.println("Enter the elements in array:");
-		for(i = 0; i < size+)
+		for(i = 0; i < size; i++)
 		{
 			a[i] = sc.nextInt();
 		}	
